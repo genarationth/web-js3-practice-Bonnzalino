@@ -16,10 +16,10 @@ function divide(a,b) {
     console.log("answer = " + (a / b));
 }
 
-add(15,3);      
-subtract(15,3);
-multiply(15,3);
-divide(15,3);
+add(15,3);          //answer = 18
+subtract(15,3);     //answer = 12
+multiply(15,3);     //answer = 45
+divide(15,3);       //answer = 5
 
 //Create Function Inform
 
@@ -28,3 +28,5 @@ function info(firstName, location, hobby) {
 }
 
 info('Bonn', 'Saraburi', 'Sleeping');
+
+// Console log will show this message : Hi, my name is Bonn, I live in Saraburi and enjoy Sleeping
